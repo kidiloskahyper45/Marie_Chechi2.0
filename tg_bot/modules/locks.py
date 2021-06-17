@@ -303,7 +303,7 @@ __help__ = """
 ബോട്ടുകൾ ലോക്കുചെയ്യുന്നത് അഡ്മിൻ അല്ലാത്തവരെ ചാറ്റിലേക്ക് ബോട്ടുകൾ ചേർക്കുന്നതിൽ നിന്ന് തടയും.
 """
 
-__mod_name__ = "Locks"
+__mod_name__ = "Locks🗝"
 
 LOCKTYPES_HANDLER = DisableAbleCommandHandler("locktypes", locktypes)
 LOCK_HANDLER = CommandHandler("lock", lock, pass_args=True, filters=Filters.group)
