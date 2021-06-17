@@ -119,7 +119,7 @@ __help__ = """
  - /me: നിങ്ങളുടെ അല്ലെങ്കിൽ മറ്റൊരു ഉപയോക്താവിന്റെ വിവരങ്ങൾ ലഭിക്കും
 """
 
-__mod_name__ = "വിവരങ്ങൾ"
+__mod_name__ = "വിവരങ്ങൾ💹"
 
 SET_BIO_HANDLER = DisableAbleCommandHandler("setbio", set_about_bio)
 GET_BIO_HANDLER = DisableAbleCommandHandler("bio", about_bio, pass_args=True)
