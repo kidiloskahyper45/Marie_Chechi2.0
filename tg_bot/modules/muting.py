@@ -184,7 +184,7 @@ __help__ = """
  - /unmute <userhandle>: ഒരു ഉപയോക്താവിനെ നിശബ്ദമാക്കുന്നു. ഉപയോക്താവിനുള്ള മറുപടി നിശബ്ദമാക്കി ഒരു മറുപടിയായി ഉപയോഗിക്കാനും കഴിയും.
 """
 
-__mod_name__ = "mute"
+__mod_name__ = "mute🤹"
 
 MUTE_HANDLER = CommandHandler("mute", mute, pass_args=True, filters=Filters.group)
 UNMUTE_HANDLER = CommandHandler("unmute", unmute, pass_args=True, filters=Filters.group)
