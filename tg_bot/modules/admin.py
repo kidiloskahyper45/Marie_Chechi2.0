@@ -227,7 +227,7 @@ __help__ = """
  - /demote: ഉപയോക്താവ് മറുപടി നൽകിയ ഡെമോട്ട് ചെയ്യുന്നു
 """
 
-__mod_name__ = "Admin"
+__mod_name__ = "Admin👮"
 
 PIN_HANDLER = CommandHandler("pin", pin, pass_args=True, filters=Filters.group)
 UNPIN_HANDLER = CommandHandler("unpin", unpin, filters=Filters.group)
