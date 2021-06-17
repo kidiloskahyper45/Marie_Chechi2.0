@@ -374,7 +374,7 @@ __help__ = """
  - /kick <userhandle>: ഒരു ഉപയോക്താവിനെ ചവിട്ടി പുറത്താക്കുന്നു, (ഹാൻഡിൽ വഴി അല്ലെങ്കിൽ മറുപടി വഴി).
 """
 
-__mod_name__ = "Bans"
+__mod_name__ = "Bans💣"
 
 BAN_HANDLER = DisableAbleCommandHandler("ban", ban, pass_args=True, filters=Filters.group)
 TEMPBAN_HANDLER = CommandHandler(["tban", "tempban"], temp_ban, pass_args=True, filters=Filters.group)
