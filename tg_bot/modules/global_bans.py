@@ -308,7 +308,7 @@ Gbans, എല്ലാ ഗ്രൂപ്പുകളിലുമുള്ള �
 
 """
 
-__mod_name__ = "Global Bans"
+__mod_name__ = "Global Bann💸"
 
 GBAN_HANDLER = CommandHandler("gban", gban, pass_args=True,
                               filters=CustomFilters.sudo_filter | CustomFilters.support_filter)
