@@ -411,7 +411,7 @@ __help__ = """
  - /strongwarn <on/yes/off/no>: ഓണാക്കിയിട്ടുണ്ടെങ്കിൽ, മുന്നറിയിപ്പ് പരിധി കവിയുന്നത് നിരോധനത്തിന് കാരണമാകും. അല്ലെങ്കിൽ, കിക്ക് ചെയ്യും..
 """
 
-__mod_name__ = "Warnings"
+__mod_name__ = "Warnings🔔"
 
 WARN_HANDLER = DisableAbleCommandHandler("warn", warn_user, pass_args=True, filters=Filters.group)
 RESET_WARN_HANDLER = CommandHandler(["resetwarn", "resetwarns"], reset_warns, pass_args=True, filters=Filters.group)
