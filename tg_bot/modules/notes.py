@@ -296,7 +296,7 @@ A button can be added to a note by using standard markdown link syntax - the lin
  - /clear <notename>: ഈ നെയിം ഇൽ ഉള്ള നോട്ട് ഡിലീറ്റ് ചെയ്യാം..
 """
 
-__mod_name__ = "Notes"
+__mod_name__ = "Notes�🗂"
 
 GET_HANDLER = CommandHandler("get", cmd_get, pass_args=True)
 HASH_GET_HANDLER = RegexHandler(r"^#[^\s]+", hash_get)
