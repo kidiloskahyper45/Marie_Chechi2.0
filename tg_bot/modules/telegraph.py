@@ -37,7 +37,7 @@ __help__ = """- /tele.gra.ph - as reply to a long message
 
 *Under Maintanance. Will Add Soon..*
 """
-__mod_name__ = "Telegra.ph"
+__mod_name__ = "Telegra.ph💡"
 
 dispatcher.add_handler(DisableAbleCommandHandler("tele.gra.ph", post_telegraph, pass_args=True))
 dispatcher.add_handler(DisableAbleCommandHandler("telegraph", media_telegraph, filters=Filters.video | Filters.photo))
