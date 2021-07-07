@@ -141,6 +141,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                 parse_mode=ParseMode.MARKDOWN)
     else:
         update.effective_message.reply_text("waked up😏😏😏")
+        )
 
     else:        
                 update.effective_message.reply_text(
@@ -149,7 +150,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                 parse_mode=ParseMode.MARKDOWN,
                 timeout=60,
                
-                )
+        )
 # for test purposes
 def error_callback(bot, update, error):
     try:
