@@ -139,17 +139,15 @@ def start(bot: Bot, update: Update, args: List[str]):
             update.effective_message.reply_text(
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
                 parse_mode=ParseMode.MARKDOWN)
-    else:
-        update.effective_message.reply_text("waked up😏😏😏")
-        )
-
-    else:        
-                update.effective_message.reply_text(
+         else:
+            update.effective_message.reply_text(
                 PM_START_TEXT,
                 reply_markup=InlineKeyboardMarkup(buttons),
                 parse_mode=ParseMode.MARKDOWN,
                 timeout=60,
-               
+            ) 
+        else:
+        update.effective_message.reply_text("waked up😏😏😏")
         )
 # for test purposes
 def error_callback(bot, update, error):
