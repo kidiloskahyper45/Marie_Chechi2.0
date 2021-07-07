@@ -145,10 +145,13 @@ def start(bot: Bot, update: Update, args: List[str]):
                 reply_markup=InlineKeyboardMarkup(buttons),
                 parse_mode=ParseMode.MARKDOWN,
                 timeout=60,
-            ) 
+        ),
+            
         else:
         update.effective_message.reply_text("waked up😏😏😏")
-        )
+        ),
+     )
+        
 # for test purposes
 def error_callback(bot, update, error):
     try:
