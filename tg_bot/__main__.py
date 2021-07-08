@@ -19,25 +19,17 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
 ──▄▀▀▀▄▄▄▄▄▄▄▀▀▀▄───
-
 ───█▒▒░░░░░░░░░▒▒█───
-
 ────█░░█░░░░░█░░█────
-
 ─▄▄──█░░░▀█▀░░░█──▄▄─
-
 █░░█─▀▄░░░░░░░▄▀─█░░█
-
 █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
-
 █░░╦─╦╔╗╦─╔╗╔╗╔╦╗╔╗░░█
-
 █░░║║║╠─║─║─║║║║║╠─░░█
-
 █░░╚╩╝╚╝╚╝╚╝╚╝╩─╩╚╝░░█
-
 █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
-hoiyare hoi hoi {}. Im alive.. Morr /help
+
+*Hoiyare hoi hoi* {}. Im alive.. More /help
 """
 
 HELP_STRINGS = """
